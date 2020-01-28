@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "501281460370",
+    "firebase_url": "https://greenworld-laundry.firebaseio.com",
+    "project_id": "greenworld-laundry",
+    "storage_bucket": "greenworld-laundry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501281460370:android:67454a8685c4ae4568564b",
+        "android_client_info": {
+          "package_name": "com.greenworldstaffapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501281460370-hnncv65puiv15vl4ssd6qu0k42og3cpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHOZIsE-24lrggb3ebVHOGOKSa-rbQP2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501281460370-hnncv65puiv15vl4ssd6qu0k42og3cpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

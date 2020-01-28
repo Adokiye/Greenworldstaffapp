@@ -1,0 +1,88 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    borderRadius: 2,
+    marginVertical: 15,
+    width: '89.3%',
+    height: 111,
+    flexDirection: 'column',
+    alignSelf: 'center',
+  //  alignItems: 'center',
+    elevation: 3,
+    justifyContent: 'space-around'
+  },
+  textColumn: {
+    paddingLeft: '6%',
+    flexDirection: 'column',
+ //   alignItems: 'fle',
+  },
+  orderIdText: {
+    color: '#000',
+    fontFamily: 'Gilroy-Bold',
+    fontSize: 18,
+  },
+  dateText: {
+    fontFamily: 'Gilroy-Regular',
+    fontSize: 10,
+    color: 'black',
+    marginTop: 2,
+  },
+  line: {
+    width: '95%',
+    height: 1,
+    backgroundColor: '#C4C4C4',
+    alignSelf: 'center',
+  },
+  viewDetailsView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingRight: '6%',
+    width: '95%',
+    justifyContent: 'flex-end',
+  },
+  viewText: {
+    color: 'black',
+    fontFamily: 'Gilroy-Regular',
+    fontSize: 13,
+    marginRight: 5,
+  },
+  orderTypeText: {
+    color: 'white',
+    fontFamily: 'Gilroy-Bold',
+    fontSize: 16,
+  },
+  pendingOrderView: {
+    top: 0,
+    right: 0,
+    position: 'absolute',
+    width: 105,
+    height: 30,
+    backgroundColor: '#E2574C',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+  },
+  activeOrderView: {
+    top: 0,
+    right: 0,
+    position: 'absolute',
+    width: 105,
+    height: 30,
+    backgroundColor: '#FFBC00',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+  },
+  completedOrderView: {
+    top: 0,
+    right: 0,
+    position: 'absolute',
+    width: 105,
+    height: 30,
+    backgroundColor: '#5ABA34',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+  },
+});
